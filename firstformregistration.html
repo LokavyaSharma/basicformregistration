@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title>Register</title>
+
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<h1>Register</h1>
+
+<form>
+	<label for = "first">FirstName:</label>
+	<input name = "first" id="first" type = "text" placeholder ="John" required>
+	<label for="second">SecondName:</label>
+	<input name = "second" id ="second" type = "text" placeholder ="Smith"required>
+<p>
+	<label for = "male">Male</label>
+	<input name = "gender" id = "male" type = "radio" value="Male">
+	<label for = "female">Female</label>
+	<input name = "gender" id = "female" type = "radio" value="Female">
+	<label for = "other">Other</label>
+	<input name = "gender" id="other" type = "radio" value="Female">
+</p>
+<p>
+	<label for ="Email">Email:</label>
+	<input name = "Email" id = "Email" type= "email" placeholder = "Enter your email" required>
+  <label for = "Password">Password:</label>
+	<input name = "Password" id = "Password" placeholder = "Enter your password" minlength ="5" maxlength="10" required title = "Password must be between 5 to 10 characters">
+</p>
+<div>
+<label>
+	Birthday:
+	<select>
+		<option>Month</option>
+    <option>Jan</option>
+		<option>Feb</option>
+	  <option>March</option>
+	</select>
+	<select>
+		  <option>Date</option>
+   		<option>10</option>
+      <option>11</option>
+			<option>12</option>
+    </select>
+		<select>
+			<option>Year</option>
+			<option>1998</option>
+			<option>1999</option>
+			<option>2000</option>
+		</select>
+</label>
+</div>
+<div>
+	<label>
+		I agree to the terms and conditions.
+	</label>
+<input name = "check" type = "checkbox" value= "checked">
+</div>
+
+<input type = "Submit">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+h1{
+  background-color: white;
+  font-family:'Pacifico', cursive;
+  text-align: center;
+  background-color:inherit;
+}
+body{
+  background: url(https://backgrounddownload.com/wp-content/uploads/2018/09/background-for-page-1.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+#sp{
+  text-align: right;
+  b  ackground-color: inherit;
+
+}
+#label{
+  background-color: inherit;
+}
+div p{
+  font-family: cursive;
+  line-height: 2;
+  text-shadow: black;
+  font-family: 'Pacifico', cursive;
+  text-align: inherit;
+}
+span{
+  font-size:2.0em;
+}
